@@ -12,4 +12,5 @@ export default function Wheather(props){
 
     axios.get(apiUrl).then(handleResponse);
     return (<Loader type="Puff" color="white" height={100} width={100} timeout={3000}/>)
+
 }
